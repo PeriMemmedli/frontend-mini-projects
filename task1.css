@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.s{
+    background-color:#cc0000 ;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    font-size: 15px;
+    margin:10px;
+    border-radius: 3px;
+}
+.s:hover{
+    opacity:0.8; 
+    cursor: pointer;
+}
+.j{
+    background-color:#fefffe ;
+    border: #2762b4 2px solid;
+    color: #2762b4;
+    padding:15px 20px;
+    margin: 10px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.j:hover{
+    color: #fefffe;
+    background-color: #2762b4;
+    cursor: pointer;
+}
+.t{
+    background-color: #1f97fd;
+    color: #fefffe;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.t:hover{
+    box-shadow: 5px 10px 20px gray;
+    cursor: pointer;
+}

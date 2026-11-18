@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.tek img{
+    height: 150px;
+    width: 150px;
+    margin: 13px;
+}
+.tek .ad{
+    font-weight: 600;
+    margin-left: 17px;
+}
+.tek .friend{
+    color:#979797;
+    font-size: 12px;
+    margin-left: 17px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.tek button{
+    background-color: #3972f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 15px;
+    margin-left: 16px;
+    margin-top: 10px;  
+}
+.tek{
+    margin: 7px;
+    width: 165px;
+    height: 260px;
+    box-shadow: 2px 2px 3px gray;
+}
+.umumi{
+    display: flex;
+    flex-direction: row;
+}

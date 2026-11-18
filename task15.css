@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.umumi{
+    border: 3px solid grey;
+    padding: 20px 30px;
+    height: 200px;
+    width: 550px;
+    margin: 100px;
+    border-radius: 20px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+.first p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.first  .number{
+    padding: 10px 25px;
+    background-color:#416cec ;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+   
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    text-align: center;
+    margin: 50px ;
+    font-weight: 500;
+}
+div .g{
+    color: #4f82ec;
+    font-size: 50px;
+}
+div .o{
+    color: #d25546;
+    font-size: 50px;
+}
+div .o2{
+    color: #f4c23b;
+    font-size: 50px;
+}
+div .l{
+    color: #5ba45a ;
+    font-size: 50px;
+}
+input{
+    padding: 7px 150px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 4px 3px 2px gray;
+    margin-top: 10px;
+    border-top: 2px rgb(228, 214, 214) solid;
+}
+input::placeholder{
+    position: absolute;
+    font-size: 15px;
+    width: 2000px;
+    left:19px;
+}
+button{
+    padding: 8px 15px;
+    border: none;
+    margin-top: 25px;
+    margin-left: 10px;
+}

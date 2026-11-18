@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.umumi img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.umumi .daxil li{
+    color: #adadad;
+    font-size: 26px;
+    list-style-type: none;
+}
+.umumi{
+    display: flex;
+    margin: 20px;
+}
+.umumi .daxil .ad{
+    color: black;
+    font-weight: 700;
+    list-style-type: none;
+
+
+}
+.daxil{
+    margin-left: 30px;
+}
+.button button{
+    background-color: #4193f0;
+    color: white;
+    border: none;
+    padding: 9px 50px;
+    font-size: 26px;
+    margin-left: 50px;
+    border-radius: 10px;
+    height: 55px;
+    margin-top: 34px;
+
+}
+.button{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.hamisi{
+    display: flex;
+    flex-direction: column;
+    border: 8px solid black;
+    margin: 30px;
+    justify-content: space-between;
+    width: 800px;
+
+}

@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkgT4uvpRzSr_HIscRV8BZ_Om0A0uV-ermGA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%
+}
+.logo{
+    color: white;
+    font-size: 80px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+.yuxari {
+    display: flex;
+    gap: 20px;
+   position: absolute;
+   top: 45px;
+   right: 15px;
+
+    
+}
+.yuxari li{
+    margin-right: 20px;
+}
+.yuxari li a{
+    color: white;
+    gap: 2px;
+    font-size: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.yuxari li a:hover{
+    color: green;
+}
+h1{
+    color: white;
+    font-size: 200px;
+    position: absolute;
+   top: 30%;
+   left: 35%;
+
+}
+.studio{
+    color:#4ca7a5 ;
+    font-size: 160px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.last{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+.yasil{
+    background-color: #8bb552;
+    color: white;
+    padding: 50px 300px;
+    border: none;
+    position: absolute;
+    top: 70%;
+    font-size: 50px;
+    left: 33%;
+}
+.red{
+     background-color:#dc4043;
+    color: white;
+    padding: 50px 300px;
+    border: none;
+    position: absolute;
+    top: 70%;
+    font-size: 50px;
+    left: 55%;
+
+}

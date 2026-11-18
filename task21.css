@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00MjItMDc2LmpwZw.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+.umumi{
+    padding: 20px 30px;
+    height: 500px;
+    width: 420px;
+    background-color: transparent;
+    box-shadow: 50px 5px 100px gray;
+
+}
+.umumi h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.username label{
+    color: white;
+    font-size: 16px;
+   position: relative;
+   top: 20px;
+   left: 10px;
+}
+.username .ic{
+    position: relative;
+    top: 30px;
+    left: -10px;
+}
+.username .ic i{
+    color: #7ec89a;
+}
+.username .ic input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    width: 300px;
+    padding: 5px 165px;
+    position: absolute;
+    left: 5px;
+   
+}
+.username .ic input::placeholder{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    left: 25px;
+    bottom: 5px;
+}
+.email{
+    margin-top: 40px;
+}
+.email label{
+    color: white;
+    font-size: 16px;
+   position: relative;
+   top: 20px;
+   left: 10px;
+}
+.email .ic{
+    position: relative;
+    top: 30px;
+    left: -10px;
+}
+.email .ic i{
+    color: white;
+}
+.email .ic input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    width: 300px;
+    padding: 5px 165px;
+    position: absolute;
+    left: 5px;
+   
+}
+.email .ic input::placeholder{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    left: 25px;
+    bottom: 5px;
+}
+.agree{
+    color: white;
+    margin-top: 60px;
+    font-size: 18px;
+}
+.agree input{
+    accent-color: #9a9da0;
+}
+button{
+    padding: 10px 40px;
+    width: 350px;
+    background-color:#699291;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 13px;
+}
+.login{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.login p{
+    color: white;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}

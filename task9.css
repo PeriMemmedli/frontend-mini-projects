@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e5f3f4;
+}
+.yuxari{
+    background-color: #3598db;
+    padding: 20px; 
+
+}
+.yuxari .ust{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 7px;
+
+}
+.yuxari .alt{
+    color: white;
+    font-size: 14px;
+}
+.green{
+    padding: 40px 50px;
+    background-color:#2dcc70;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border:5px solid #2dcc6f00;
+}
+button{
+    border:3px solid #d64234 ;
+    border-radius: 10px;
+    padding: 30px 60px;
+    background-color: #e84c3d;
+   margin-top: 30px;
+   margin-left: 40%;
+}
+button p{
+    color: white;
+    margin-top: -15px;
+    font-size: 15px;
+    font-style: italic;
+}
+button a{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.goy{
+    background-color:#2d3e50 ;
+    color: white;
+    padding: 40px 40px;
+    margin-top: 20px;
+}
+.goy h2{
+    margin-bottom: 20px;
+
+}
+footer div{
+    background-color:#1c2124;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px ;
+   
+}
+footer div li{
+    display: flex;
+    text-align: center;
+  
+
+}
+footer div li a{
+    list-style-type: none;
+    text-decoration: none;
+}

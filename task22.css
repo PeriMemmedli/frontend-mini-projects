@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://us.images.westend61.de/0000768579pw/man-writing-down-notes-at-desk-in-office-ZEF12559.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    background-color:#2a385f ;
+    padding: 20px;
+}
+nav .logo{
+    color: white;
+    background-size: 18px;
+    font-weight: 800;
+    position: absolute;
+    top:30px;
+    left: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 50px;
+}
+nav ul li{
+      width: 50px;
+      padding:10px;
+      margin: 3px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.sub-menu{
+    display: none;
+  
+}
+nav ul li:hover .sub-menu{
+    display: block;
+     background-color: #2a385f;
+    position:absolute;
+    margin-top:10px;
+   
+}
+nav ul li:hover .sub-menu ul{
+    display:block;
+    margin: 15px;
+}
+nav ul li:hover .sub-menu ul li{
+    width: 110px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+nav ul li:hover .sub-menu ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+    
+  
+

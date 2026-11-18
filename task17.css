@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+div{
+    display: flex;
+    gap: 15px;
+    background-color: #7254ac;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+   
+}
+div p{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 10px;
+}
+div input{
+    padding: 5px 700px;
+    border-radius: 30px;
+    border: none;
+}
+div input::placeholder{
+   position: absolute;
+   left: 1%;
+   font-size: 16px;
+}
+div button{
+     background-color: #7254ac;
+     border: 2px solid white;
+     padding: 10px 20px;
+     color: white;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.title{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    width: 350px;
+    margin: 8px;
+}
+i{
+    color: red;
+    margin-top: 40px;
+    font-size: 25px;
+    margin-left: 8px;
+}
+.second{
+    color: #707070;
+    margin-left: 8px;
+    font-size: 15px;
+}
+.next{
+    color: #707070;
+    font-size: 16px;
+     margin-left: 8px;
+     margin-top: 10px;
+}
+.last{
+    color: #707070;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 300px;
+}
+div i{
+    color: #969696;
+    font-size: 30px;
+}
+button{
+    background-color: red;
+    padding: 20px 90px;
+    width: 100%;
+    color:white;
+    border: none;
+    font-size: 16px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}

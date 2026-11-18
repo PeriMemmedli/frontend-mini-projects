@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Picture1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.umumi{
+    padding: 20px 300px;
+    height: 1000px;
+    width: 1000px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.umumi h1{
+    color: white;
+    font-size: 100px;
+    margin-top: 25px;
+    text-align: center;
+}
+.username input{
+    padding: 33px 300px;
+    background-color: transparent;
+    border: 2px #ece2e3 solid;
+    border-radius: 40px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: -180px;
+}
+.username input::placeholder{
+    color:#ece2e3;
+    opacity: 1;
+    font-size: 35px;
+   position: absolute;
+   left: 5%;
+   top: 20px;
+}
+.username i{
+    position: absolute;
+    font-size: 45px;
+    top: 26%;
+    right: 150px;
+}
+.password input{
+    padding: 33px 300px;
+    background-color: transparent;
+    border: 2px #ece2e3 solid;
+    border-radius: 40px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: -180px;
+}
+.password input::placeholder{
+    color:#ece2e3;
+    opacity: 1;
+    font-size: 35px;
+   position: absolute;
+   left: 5%;
+   top: 20px;
+}
+.password i{
+    position: absolute;
+    font-size: 45px;
+    top: 44%;
+    right: 150px;
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+   width: 600px;
+   margin-top: 80px;
+}
+.remember-forgot label{
+    margin-left: -150px;
+    accent-color: white;
+}
+.remember-forgot a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 30px 350px;
+    border-radius: 50px;
+    border: none;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: -180px;
+    margin-top: 60px;
+}
+.register{
+    display: flex;
+    width: 600px;
+    margin-top: 60px;
+    font-size: 40px;
+    margin-left: -80px;
+    text-align: center;
+}
+.register p a{
+   text-decoration: none;
+   color: white;
+   font-weight: 500;
+   margin-left: 15px;
+}
+
+
+
